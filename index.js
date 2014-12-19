@@ -2,5 +2,6 @@ module.exports=
 {
     hash:require('./lib/getHash'),
     diff:require('./lib/diff'),
-    patch:require('./lib/patch')
+    patch:require('./lib/patch'),
+    project:require('./lib/projectPatch')
 };
