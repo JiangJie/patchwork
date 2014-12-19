@@ -1,0 +1,14 @@
+{
+  "name": "patchwork",
+  "version": "0.0.1",
+  "author": "titon <titon1235@gmail.com>",
+  "description": "Binary diff patch module",
+  "main": "./index.js",
+  "dependencies": {
+    "fs-extra": "^0.13.0"
+  },
+  "scripts": {
+    "preinstall": "preinstall.js"
+  },
+  "devDependencies": {}
+}
