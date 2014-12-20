@@ -1,6 +1,6 @@
 {
   "name": "eitrium-patchwork",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": "bsdiff bspatch patch diff ",
   "author": "titon <titon1235@gmail.com>",
   "description": "Binary diff patch module",
@@ -11,7 +11,7 @@
     "getdirs": "^0.2.7"
   },
   "scripts": {
-    "preinstall": "node preinstall.js"
+    "install": "node preinstall.js"
   },
   "repository": {
     "type": "git",

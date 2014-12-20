@@ -1,5 +1,6 @@
 var childProcess= require('child_process');
 var exec=childProcess.exec;
+var path=require('path');
 var isWin=require('./lib/isWin');
 var fsextra=require('fs-extra');
 
@@ -16,6 +17,7 @@ var binPath=path.resolve('./bin/nix');
 var makeFilePath=path.resolve('./src');
 var bspatch="bspatch";
 var bsdiff="bsdiff";
+
 
 //Start with the Patch executable
 console.log("===Compiling PATCHWORK for your system===");
