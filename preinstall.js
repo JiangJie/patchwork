@@ -24,7 +24,7 @@ if (isWin)
 
 
 console.log("Compiling bsPatch...");
-exec('make bspatch',
+exec('make '+bspatch,
 {
     cwd:makeFilePath
 },function(error,stdout,stderr)
@@ -36,7 +36,7 @@ exec('make bspatch',
     }
     //Make the diff executable
     console.log("Compiling bsdiff...");
-    exec('make bsdiff',
+    exec('make '+bsdiff,
         {
             cwd:makeFilePath
         },function(error,stdout,stderr)

@@ -1,6 +1,6 @@
 {
   "name": "eitrium-patchwork",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": "bsdiff bspatch patch diff ",
   "author": "titon <titon1235@gmail.com>",
   "description": "Binary diff patch module",
