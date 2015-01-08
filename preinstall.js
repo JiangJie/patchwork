@@ -67,7 +67,7 @@ exec('make '+bspatch,
                         fsextra.copySync(path.join(makeFilePath, bsdiff), path.join(binPath, bspatchs));
                         fsextra.copySync(path.join(makeFilePath, bsdiff), path.join(binPath, bsdiff));
                     }
-                    catch (errors)
+                    catch (error)
                     {
                         console.log('Catastrophic installation error cleaning src directory');
                         informInstaller(error);
