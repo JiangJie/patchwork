@@ -64,8 +64,8 @@ exec('make '+bspatch,
                     console.log("Copying binaries to bin...");
                     try
                     {
-                        fsextra.copySync(path.join(makeFilePath, bsdiff), path.join(binPath, bspatchs));
                         fsextra.copySync(path.join(makeFilePath, bsdiff), path.join(binPath, bsdiff));
+                        fsextra.copySync(path.join(makeFilePath, bspatch), path.join(binPath, bspatch));
                     }
                     catch (error)
                     {
